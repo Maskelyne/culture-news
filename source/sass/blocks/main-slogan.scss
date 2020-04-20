@@ -1,0 +1,45 @@
+.main-slogan {
+  max-width: 1440px;
+  min-height: 464px;
+  margin: 0 auto;
+  background-image: url("../img/backgr-main.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    padding: 33px 0 134px 0;
+    font-family: inherit;
+    font-size: 72px;
+    line-height: 82px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  p {
+    width: 32%;
+    margin: 0;
+    font-family: inherit;
+    line-height: 23px;
+    text-align: center;
+    color: $white;
+  }
+}
+
+.main-slogan__svg {
+  width: 55px;
+  height: 55px;
+  margin-top: 46px;
+  padding: 16px;
+  background-color: $orange;
+  display: inline-block;
+  border-radius: 50%;
+
+  svg {
+    fill: white;
+  }
+}
