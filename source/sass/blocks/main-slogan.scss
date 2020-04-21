@@ -1,6 +1,7 @@
-.main-slogan {
+.main-slogan__wrapper {
   max-width: 1440px;
-  min-height: 464px;
+  padding-top: 46px;
+  padding-bottom: 45px;
   margin: 0 auto;
   background-image: url("../img/backgr-main.jpg");
   background-repeat: no-repeat;
@@ -33,7 +34,6 @@
 .main-slogan__svg {
   width: 55px;
   height: 55px;
-  margin-top: 46px;
   padding: 16px;
   background-color: $orange;
   display: inline-block;

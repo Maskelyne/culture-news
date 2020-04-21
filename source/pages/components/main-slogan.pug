@@ -1,6 +1,6 @@
-mixin main
-  main.page-main(class!=attributes.class)
-    section.main-slogan
+mixin main-slogan
+  section.main-slogan(class!=attributes.class)
+    div.main-slogan__wrapper
       span.main-slogan__svg
         svg(width="27" height="18")
           use(xlink:href="img/sprite.svg#gallery")

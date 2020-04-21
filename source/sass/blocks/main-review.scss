@@ -1,0 +1,49 @@
+.main-review__wrapper {
+  padding-top: 44px;
+  padding-bottom: 53px;
+
+  h3 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: $robotoBold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;
+  }
+
+  p {
+    width: 96%;
+    margin: 0;
+    color: $black;
+  }
+}
+
+.main-review__list {
+  @include reset-list;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  .main-review__item {
+    max-width: 370px;
+    margin: 0 27px 0 2px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .main-review__link {
+    @include effect;
+
+    margin: 14px 0 9px 0;
+    font-family: $playfairDisplayExtrtBold;
+    font-size: 23px;
+    line-height: 31px;
+    color: $black;
+    display: block;
+  }
+}
