@@ -1,9 +1,9 @@
 .main-header__wrapper {
-  margin-bottom: 45px;
+  padding-top: 60px;
+  padding-bottom: 45px;
 
   h1 {
     margin: 0;
-    padding-top: 60px;
     padding-bottom: 45px;
     font-family: $playfairDisplayExtrtBold;
     font-size: 35px;
@@ -34,6 +34,8 @@
   }
 
   .main-header__link {
+    @include effect;
+
     font-family: $robotoRegular;
     font-size: 15px;
     line-height: 18px;

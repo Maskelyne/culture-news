@@ -13,3 +13,13 @@
   color: inherit;
   font: inherit;
 }
+
+@mixin effect {
+  &:hover {
+    color: $orange;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}

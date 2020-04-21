@@ -1,11 +1,16 @@
 extends layouts/layout
 include components/header
-include components/main
+include components/main-slogan
+include components/main-review
+include components/main-subscription
 
 block header
   +header
 
 block main
-  +main
+  main.page-main
+    +main-slogan
+    +main-review
+    +main-subscription
 
 block footer
