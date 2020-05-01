@@ -6,8 +6,8 @@
   src:
     local("Roboto Regular"),
     local("Roboto-Regular"),
-    url("../../fonts/Roboto-Regular.woff2") format("woff2"),
-    url("../../fonts/Roboto-Regular.woff") format("woff");
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -18,8 +18,8 @@
   src:
     local("Roboto Bold"),
     local("Roboto-Bold"),
-    url("../../fonts/Roboto-Bold.woff2") format("woff2"),
-    url("../../fonts/Roboto-Bold.woff") format("woff");
+    url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -30,6 +30,6 @@
   src:
     local("PlayfairDisplay ExtraBold"),
     local("PlayfairDisplay-ExtraBold"),
-    url("../../fonts/PlayfairDisplay-ExtraBold.woff2") format("woff2"),
-    url("../../fonts/PlayfairDisplay-ExtraBold.woff") format("woff");
+    url("../fonts/PlayfairDisplay-ExtraBold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-ExtraBold.woff") format("woff");
 }
