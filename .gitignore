@@ -10,7 +10,6 @@ Thumbs.db
 .editorconfig
 .eslint
 .gitattributes
-.gitignore
 .stylelintignore
 .stylelintrc
 gulpfile.js
