@@ -1,8 +1,10 @@
 extends layouts/layout
 include components/header
+include components/main-nav
 include components/main-slogan
 include components/main-review
 include components/main-subscription
+include components/footer
 
 block header
   +header
@@ -14,3 +16,4 @@ block main
     +main-subscription
 
 block footer
+  +footer

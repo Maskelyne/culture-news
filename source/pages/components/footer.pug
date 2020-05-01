@@ -1,0 +1,23 @@
+mixin footer
+  footer.main-footer(class!=attributes.class)
+    section.main-footer__wrapper.container
+      h2 Новости культуры
+      +main-nav.main-footer__nav
+    section.main-footer__social.container
+      ul.main-footer__social-list
+        li.main-footer__item
+          a.main-footer__link(href="#")
+            span.visually-hidden Инстраграм
+            svg(width="23" height="24")
+              use(xlink:href="img/sprite.svg#instagram-icon")
+        li.main-footer__item
+          a.main-footer__link(href="#")
+            span.visually-hidden Фейсбук
+            svg(width="23" height="24")
+              use(xlink:href="img/sprite.svg#facebook-icon")
+        li.main-footer__item
+          a.main-footer__link(href="#")
+            span.visually-hidden Твиттер
+            svg(width="23" height="24")
+              use(xlink:href="img/sprite.svg#twitter-icon")
+
