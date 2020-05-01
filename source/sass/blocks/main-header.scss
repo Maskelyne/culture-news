@@ -14,13 +14,13 @@
   }
 }
 
-.main-header__list {
+.main-nav__list {
   @include reset-list;
 
   display: flex;
   flex-wrap: wrap;
 
-  .main-header__item {
+  .main-nav__item {
     margin: 0 26px 0 25px;
 
     &:first-child {
@@ -33,7 +33,7 @@
     }
   }
 
-  .main-header__link {
+  .main-nav__link {
     @include effect;
 
     font-family: $robotoRegular;
