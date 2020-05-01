@@ -7,9 +7,18 @@
 *.psd
 *.sublime*
 Thumbs.db
-
-node_modules/
-build/
+.editorconfig
+.eslint
+.gitattributes
+.gitignore
+.stylelintignore
+.stylelintrc
+gulpfile.js
+package-lock.json
+package.json
+node_modules
+build
+source
 
 stuff/
 todo.*
